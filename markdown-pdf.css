@@ -1,0 +1,44 @@
+body {
+    font-family: "Mona Sans", "Noto Sans", -apple-system, 
+    BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", 
+    "Droid Sans", sans-serif, "Meiryo";
+}
+h1, h2, h3, h4{
+    font-weight: 600;
+}
+h2{
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #292929;
+}
+mark{
+    background: #c9daf8!important;
+}
+table, th, td {
+    border: 1px solid #d0d7d2;
+}
+/* for inline code */
+:not(pre):not(.hljs) > code {
+    color: black; /*color: #C9AE75;*/
+    background-color: #afb8c133;
+    padding: .2em .4em;
+    margin: 0;
+    border-radius: 6px;
+    font-size: 85%; /*font-size: inherit;*/
+}
+.seagreen{color: #80ae9bff}
+.coral{color: #f27367}
+.steelblue{color: #45a2bc}
+.yellowgreen{color: #bcc924}
+
+/*
+// mathjax //
+<!--`Macros`: Use \bbone instead of \mathbb{1}-->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+  TeX: { Macros: { bbone: '{\\unicode{x1D7D9}}' } }
+});
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+*/

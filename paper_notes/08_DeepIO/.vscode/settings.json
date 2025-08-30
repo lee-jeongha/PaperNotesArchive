@@ -1,0 +1,10 @@
+{
+    "markdown-pdf.scale": 1,
+    "markdown-pdf.breaks": true,
+    "markdown-pdf.displayHeaderFooter": false,
+    "markdown-pdf.quality":100,
+    "markdown-pdf.width": "8.3in",
+    "markdown-pdf.height": "63.5in",
+    "markdown-pdf.stylesRelativePathFile": true,
+    "markdown-pdf.styles": ["../../markdown-pdf.css"]
+}
